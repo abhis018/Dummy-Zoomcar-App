@@ -42,7 +42,7 @@ const Footer = () => {
                     <li>Self drive cars in Siliguri</li>
                     <li>Self drive cars in Hassan</li>
                 </ul>
-                <ul>
+                <ul className="child-list2">
                     <li>Self drive cars in Delhi</li>
                     <li>Self drive cars in Chandigarh</li>
                     <li>Self drive cars in Indore</li>
@@ -70,21 +70,21 @@ const Footer = () => {
                     <li>Car rental from Vizag Airport</li>
                     <li>Car rental from Guwahati Airport</li>
                 </ul>
-                <ul>
+                <ul className="child-list3">
                     <li>Car rental from Pune Airport</li>
                     <li>Car rental from Hydrabad Airport</li>
                     <li>Car rental from Coimbatore Airport</li>
                     <li>Car rental from Udaipur Airport</li>
                     <li></li>
                 </ul>
-                <ul>
+                <ul className="child-list2">
                     <li>Car rental from Delhi Airport</li>
                     <li>Car rental from Chandigarh Airport</li>
                     <li>Car rental from Indore Airport</li>
                     <li>Car rental from Surat Airport</li>
                     <li></li>
                 </ul>
-                <ul>
+                <ul className="child-list3">
                     <li>Car rental from Mumbai Airport</li>
                     <li>Car rental from Kolkata Airport</li>
                     <li>Car rental from Jaipur Airport</li>
@@ -93,9 +93,9 @@ const Footer = () => {
                 </ul>
             </div><hr/>
             <div className="address">
-                <p>Let's Keep in Touch</p>
-                <p>7th Floor, Tower-B, Diamond District, 150, HAL Airport Road, Kodihalli, Bangalore – 560008</p>
-                <p>© Copyright 2017 Zoomcar India Private Ltd. All rights reserved.</p>
+                <p className="add1">Let's Keep in Touch</p>
+                <p className="add2">7th Floor, Tower-B, Diamond District, 150, HAL Airport Road, Kodihalli, Bangalore – 560008</p>
+                <p className="add3">© Copyright 2017 Zoomcar India Private Ltd. All rights reserved.</p>
             </div>
         </div>
     )
