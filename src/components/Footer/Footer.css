@@ -1,0 +1,40 @@
+.footer{
+    background-color: #323a44;
+    width: 960px;
+    font-size: 16px;
+}
+.list{
+    display: flex;
+    text-align: left;
+}
+
+
+.list li{
+    font-size: 15px;
+    display: block;
+    padding-top: 10px;
+}
+
+.list{
+    margin-left: 140px;
+    margin-right: 150px;
+}
+
+.child-list1{
+    margin-left: 110px;
+}
+.child-list2{
+    margin-left: 30px;
+}
+.footer p{
+    color: white;
+    padding-top: 40px;
+}
+hr{
+    margin-top: 40px;
+}
+.address p{
+    text-align: left;
+    margin-left: 160px;
+    padding: 10px;
+}

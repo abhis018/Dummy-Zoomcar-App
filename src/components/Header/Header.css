@@ -1,0 +1,24 @@
+.h2{
+    font-family: 'Fredericka the Great', cursive;
+    color: white;
+    margin-left: 20px;
+    margin-right: 28%;
+}
+.header{
+    background-color: #33414f;
+    height: 64px;
+    align-items: center;
+    display: flex;
+    padding: 0 15px 0 25px;
+    margin: 0;
+}
+
+.header-links a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    padding-left: 30px;
+}
+* {
+    margin-top: 0;
+  }

@@ -1,0 +1,62 @@
+.file1{
+    background-image: url(https://www.zoomcar.com/build/img/app_bg.daa074b25be54e8df493f629f6a10f61.jpg);
+    background-repeat: no-repeat;
+    height: 602px;
+    background-size: cover;
+    text-align: left;
+    color: #eee;
+}
+.file1 h2{
+    margin-left: 14%;
+    Padding-top: 17%;
+}
+.file1 p{
+    margin-left: 14%;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.file2{
+    display: flex;
+    height: 310px;
+    justify-content: space-between;
+    margin-left: 50px;
+    width: 90%;
+}
+
+.des{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.file2 p{
+    font-size: 18px;
+}
+.file3{
+    background-image: url(https://www.zoomcar.com/build/img/testimonial_bg.499d1dd2876b931e9cf0509e3d1884f5.jpg);
+    height: 540px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.store{
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+.store a img{
+    width: 120px;
+    height: 42px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+.store-but{
+    background-color: black;
+    color: white;
+}

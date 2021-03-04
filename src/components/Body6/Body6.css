@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.last-footer{
+    background-color: rgb(235, 234, 228);
+    font-size: 13px;
+}
+.footer-body{
+    text-align: left;
+}
+
+.footer-body .h3{
+    font-size: 24px;
+}
+
+.footer-body p{
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+.footer-body h2{
+    color: grey;
+    font-weight:500;
+}
