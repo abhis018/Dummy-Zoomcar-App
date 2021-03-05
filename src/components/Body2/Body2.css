@@ -1,14 +1,14 @@
 .club{
-    background-image: url(https://www.zoomcar.com/build/img/supermilers_bg.ce8bf185500c5dd96a4c1034b89e6e0c.jpg);
-    background-color: rgba(0,0,0,.7);
+    /* background-image: url(https://www.zoomcar.com/build/img/supermilers_bg.ce8bf185500c5dd96a4c1034b89e6e0c.jpg); */
+    background-image: url(file:///C:/Users/abhis/OneDrive/Desktop/dummy-zoomcar-webpage/src/components/Body2/supermilers1.jpg);
     background-size: cover;
     background-position-y: 75%;
     height: 350px;
     color: white;
 }
 .club img{
-    height: 80px;
-    width: 100px;
+    height: 90px;
+    width: 75px;
     padding-top: 30px;
     align-items: center;
 }
@@ -48,12 +48,13 @@
     width: auto;
     padding: 50px 0;
     font-size: 14px;
+    margin-left: 25px;
 }
 
 .container-1{
-    width: 100%;
+    width: 220px;
     margin-left: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     padding-top: 50px;
     background-color: white;
     border-radius: 5px;
@@ -71,11 +72,41 @@
     padding-bottom: 15px;
 }
 
+.container-1 .img{
+    width: 150px;
+    height: 30px;
+}
+.unlock{
+    width: 30px;
+}
+
 .club2 .but{
     padding: 10px 60px;
     border: 1px solid #666;
     color: #323a44;
     border-radius: 3px;
     margin-top: 0;
-    margin-bottom: 35px;
+}
+.points{
+    background-image: url(https://www.zoomcar.com/build/img/z_coins.79da880b0c097267c2580ec6c91fc75f.svg);
+    background-size: 60px;
+    background-position: 60px 10px;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 125px;
+    background-color: white;
+    border: 1px solid none;
+    position: relative;
+    bottom: 812px;
+    left: 42%;
+    box-shadow: 0 12px 22px 2px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+}
+.points p{
+    padding-top: 70px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
 }

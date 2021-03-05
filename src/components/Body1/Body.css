@@ -65,14 +65,16 @@
     color: #70ad4d;
     font-weight: 400;
     font-size: 18px;
-    padding-top: 70px;
+    padding-top: 0;
 }
 .container1 p{
     padding-bottom: 20px;
     font-size: 13px;
 }
-
-
+.container1 img{
+    height: 60px;
+    padding-top: 20px;
+}
 
 
 .body1-head{
