@@ -1,9 +1,28 @@
 import React from 'react';
 import './Body3.css';
+import Slider from 'react-animated-slider';
+import 'react-animated-slider/build/horizontal.css';
+import { AutoRotatingCarousel } from 'material-auto-rotating-carousel';
+import { Slide } from 'material-auto-rotating-carousel';
 import button from './apple_store.png';
 import button2 from './google_play.png';
+const slides = require("../Body5/Body5").slides;
 
 const Body3 = () => {
+    const settings = {
+        slider: 'slider',
+        previousButton: '<',
+        nextButton: '>',
+        buttonDisabled: 'disabled',
+        track: 'track',
+        slide: 'slide',
+        hidden: 'hidden',
+        previous: 'previous',
+        current: 'current',
+        next: 'next',
+        animateIn: 'animateIn',
+        animateOut: 'animateOut',
+      };
     return(
         <div>
             <div className="file1">
@@ -26,7 +45,7 @@ const Body3 = () => {
                 <div>
                     <div className="des">36,00,00,000+</div>
                     <p>Km Travelled</p>
-                    <p>(enough for 470 round trips to the moon!)</p>
+                    <p className="extra">(enough for 470 round trips to the moon!)</p>
                 </div>
                 <div>
                     <div className="des">6,500+</div>
@@ -34,15 +53,19 @@ const Body3 = () => {
                 </div>
                 <div>
                     <div className="des">Rating 4.7/5.0</div>
-                    <p>Rated by 3,00,000+ customers <br/>over 10,00,000+ bookings</p>
+                    <p>Rated by 3,00,000+ customers</p>
+                    <p className="extra">over 10,00,000+ bookings</p>
                 </div>
             </div>
             <div className="file3">
-                <p>The experience with Zoomcar has been excellent.
-                    Your process is well thought out and the service definitely fills a void.
-                    Maybe you could start a school which teaches "real customer service"!
-                </p>
-                <h2>- Sunil Rastogi</h2>
+                <div className="symbol"></div>
+                <Slider className="Slider" {...settings}>
+                    {slides.map((slide, index) => 
+                        <div key={index}>
+                        <p>{slide.quotes}</p>
+                        <div className="name">{slide.name}</div>
+                        </div>)}
+                </Slider>
             </div>
         </div>
     )

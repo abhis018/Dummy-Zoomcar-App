@@ -27,6 +27,10 @@
 .des{
     font-size: 30px;
     font-weight: 600;
+    margin-top: 160px;
+}
+.extra{
+    font-weight: 70;
 }
 
 .file2 p{
@@ -38,7 +42,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    font-size: 25px;
 }
+
 
 .store{
     margin-left: 150px;
@@ -50,7 +56,30 @@
     height: 42px;
     margin-left: 20px;
 }
+.Slider {
+    color: white;
+    cursor: pointer;
+    padding-top: 20px;
+} 
+.Slider p{
+    padding-left: 171px;
+    padding-right: 190px;
+    font-weight: 200;
+}
+.Slider .name{
+    color: rgb(114, 134, 74);
+    font-weight: 500;
+    padding-top: 25px;
+}
 
+.symbol{
+    background-image: url(https://www.zoomcar.com/build/img/quotation.577e70bf4479f87726e9b62c3afe8be0.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 110px;
+    background-position-x: 12px;
+    background-position-y: 90px;
+}
 
 
 

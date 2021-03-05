@@ -3,11 +3,14 @@
     padding: 0;
 }
 .last-footer{
-    background-color: rgb(235, 234, 228);
+    background: #eaeaea;
     font-size: 13px;
 }
 .footer-body{
     text-align: left;
+    margin-left: 150px;
+    margin-right: 130px;
+    padding-top: 40px;
 }
 
 .footer-body .h3{
@@ -17,8 +20,10 @@
 .footer-body p{
     font-size: 14px;
     padding-bottom: 25px;
+    padding-top: 10px;
 }
 .footer-body h2{
-    color: grey;
     font-weight:500;
+    color: #4c5766d0;
+    font-size: 25px;
 }
