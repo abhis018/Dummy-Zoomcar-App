@@ -23,11 +23,18 @@
     margin-left: 50px;
     width: 90%;
 }
-
+.qualities{
+    padding-top: 70px;
+    color: #323a44;
+}
+.first{
+    padding-top: 100px;
+    color: #323a44;
+}
 .des{
     font-size: 30px;
     font-weight: 600;
-    margin-top: 160px;
+    margin-top: 5px;
 }
 .extra{
     font-weight: 70;
@@ -80,8 +87,35 @@
     background-position-x: 12px;
     background-position-y: 90px;
 }
-
-
+.press{
+    height: 120px;
+}
+.press-footer{
+    height: 180px;
+    background-color: #43505c;
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.press-footer .link{
+    text-align: center;
+    width: 25%;
+    display: block;
+    padding: 30px 0;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+}
+a:hover{
+    background-color: rgb(167, 187, 187);
+}
+.press-footer img{
+    width: 30px;
+    width: 30px;
+}
+.press-footer p{
+    padding-top: 30px;
+}
 
 
 
