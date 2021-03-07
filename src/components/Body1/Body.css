@@ -35,6 +35,11 @@
     padding-left: 20px;
     padding-top: 18px;
     padding-bottom: 20px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 10px;
+    bottom: 1rem;
+    z-index: 10;
 }
 .advantage{
     background-color: #eee;
@@ -54,11 +59,12 @@
     display: flex;
     width: 880px;
     margin-left: 16%;
+    margin-top: 10px;
 }
 .container1{
     width: 80%;
     margin-left: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: white;
 }
 .container1 h3{
@@ -72,7 +78,7 @@
     font-size: 13px;
 }
 .container1 img{
-    height: 60px;
+    height: 50px;
     padding-top: 20px;
 }
 
@@ -98,9 +104,8 @@
     text-align: left;
     padding-left: 20px;
     color: rgb(87, 69, 69);
+    
 }
-
-
 
 .para{
     font-size: 13px;

@@ -65,8 +65,7 @@
 }
 .Slider {
     color: white;
-    cursor: pointer;
-    padding-top: 20px;
+    margin-bottom: 100px;
 } 
 .Slider p{
     padding-left: 171px;
@@ -87,35 +86,28 @@
     background-position-x: 12px;
     background-position-y: 90px;
 }
-.press{
-    height: 120px;
-}
-.press-footer{
-    height: 180px;
-    background-color: #43505c;
-    display: flex;
-    padding-left: 150px;
-    padding-right: 150px;
-}
-.press-footer .link{
-    text-align: center;
-    width: 25%;
-    display: block;
-    padding: 30px 0;
+
+
+.nextButton {
+    margin-left: 95%;
     cursor: pointer;
-    font-size: 16px;
-    color: #fff;
+    
 }
-/* a:hover{
-    background-color: rgb(167, 187, 187);
-} */
-.press-footer img{
-    width: 30px;
-    width: 30px;
+.previousButton {
+    font-size: 100%;
+    cursor: pointer;
 }
-.press-footer p{
-    padding-top: 30px;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 

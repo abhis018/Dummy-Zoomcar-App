@@ -1,0 +1,39 @@
+.press{
+    height: 140px;
+}
+.press-footer{
+    height: 180px;
+    background-color: #43505c;
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.press-footer .link{
+    text-align: center;
+    width: 25%;
+    display: block;
+    padding: 30px 0;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+}
+.press-footer img{
+    width: 30px;
+    height: 40px;
+}
+.press-footer p{
+    padding-top: 30px;
+}
+
+.press .slide{
+    height: 80px;
+    width: 80%;
+    margin-left: 120px;
+}
+
+.previousButton{
+    cursor: pointer;
+}
+.nextButton{
+    cursor: pointer;
+}

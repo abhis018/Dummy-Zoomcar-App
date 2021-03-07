@@ -1,3 +1,6 @@
+.body2{
+    background-color: #eee;
+}
 .club{
     /* background-image: url(https://www.zoomcar.com/build/img/supermilers_bg.ce8bf185500c5dd96a4c1034b89e6e0c.jpg); */
     background-image: url(file:///C:/Users/abhis/OneDrive/Desktop/dummy-zoomcar-webpage/src/components/Body2/supermilers1.jpg);
@@ -19,20 +22,27 @@
 .club p{
     margin-top: 15px;
 }
-
+.club2 {
+    height: 550px;
+}
 .club2 .learn{
     padding: 10px 60px;
     border: 1px solid #666;
     color: #323a44;
     border-radius: 3px;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .club2 h2{
     font-size: 24px;
     color: #666;
-    margin-top: 70px;
+    margin-top: 50px;
     font-weight: 500;
+    margin-bottom: 0;
+}
+.club2 p{
+    margin: 0;
+    padding-top: 0;
 }
 .club2 .earn{
     margin-left: 42%;
@@ -97,7 +107,7 @@
     background-color: white;
     border: 1px solid none;
     position: relative;
-    bottom: 812px;
+    bottom: 712px;
     left: 42%;
     box-shadow: 0 12px 22px 2px rgb(0 0 0 / 10%);
     border-radius: 5px;

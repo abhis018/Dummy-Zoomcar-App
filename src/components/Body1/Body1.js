@@ -7,7 +7,7 @@ import img4 from './image4.png';
 import img5 from './image5.png';
 import img6 from './image6.png';
 
-const Body1 = () => {
+const Body1 = () => { 
     return(
         <div className="body1-main">
             <div className="body1">

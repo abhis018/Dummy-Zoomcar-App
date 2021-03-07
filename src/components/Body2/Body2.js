@@ -10,7 +10,7 @@ import zoom from './zoom.svg';
 
 const Body2 = () =>{
     return(
-        <div>
+        <div className="body2">
             <div className="club">
                 <img src={pic}/>
                 <h2>SUPERMILLER CLUB</h2>
